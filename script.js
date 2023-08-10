@@ -1,7 +1,7 @@
 const button = document.getElementById("changeColorBtn");
 const body = document.body;
 
-button.addEventListener("click", () => {
+button.addEventListener("click", function() {
   const randomColor = getRandomColor();
   body.style.backgroundColor = randomColor;
 });
